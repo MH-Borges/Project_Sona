@@ -1,0 +1,18 @@
+#5ec6f2 - Azul Claro
+#232a45 - Azul Medio
+#1a1e27 - azul escuro (BIO)
+#1d2129 - azul escuro (Habilidades)
+
+#a58548 - dourado claro / #745428 - Dourado Escuro
+
+#eef0e6 - Branco / #9a9a9a - Prata
+
+
+	PALETA BASE
+
+#D9D8D4 - Branco acizentado
+#D1B795 - Marron/Dourado
+#BC8D96 - Rosado
+#293972 - Azul Escuro
+#3D6C90 - Azul Medio
+#80FAFB - Azul Ciano
