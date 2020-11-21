@@ -16,3 +16,29 @@
 #293972 - Azul Escuro
 #3D6C90 - Azul Medio
 #80FAFB - Azul Ciano
+
+	FONTES
+
+
+Beaufort for LOL - Heavy/Bold/Medium - Italic == BANNER/MENU
+
+
+Beaufort for LOL - Regular/Medium/light
+Beaufort for LOL - Bold - Italic		== BIO 
+BarnsleyGothic-Medium
+
+
+Beaufort for LOL - Heavy - italic - Titulo
+Beaufort for LOL - Heavy - nome da Skill 	== Skills
+BarnsleyGothic-Light - Qual Skill
+BarnsleyGothic-Bold / descrição
+
+
+Beaufort for LOL - Heavy - italic - titulo/txt foto == Skins
+
+
+Beaufort for LOL - Bold/Heavy
+Beaufort for LOL - Medium - italic		== CONTOS
+
+
+BarnsleyGothic-Light				 == RODAPÉ

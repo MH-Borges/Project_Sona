@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background:#232a45;
+    height: 5000px;
+}
+@font-face{font-family:"BrsLight";src:url(fontes/BarnsleyGothic-Light.ttf);}
+@font-face{font-family:"BrsMedium";src:url(fontes/BarnsleyGothic-Medium.ttf);}
+@font-face{font-family:"BrsBold";src:url(fontes/BarnsleyGothic-Bold.ttf);}
+@font-face{font-family:"LoLlight";src:url(fontes/beaufortforlol-light.otf);}
+@font-face{font-family:"LoLRegular";src:url(fontes/beaufortforlol-regular.otf);}
+@font-face{font-family:"LoLMedium";src:url(fontes/beaufortforlol-medium.otf);}
+@font-face{font-family:"LoLMediumIT";src:url(fontes/beaufortforlol-mediumitalic.otf);}
+@font-face{font-family:"LoLBold";src:url(fontes/beaufortforlol-bold.otf);}
+@font-face{font-family:"LoLBoldIT";src:url(fontes/beaufortforlol-bolditalic.otf);}
+@font-face{font-family:"LoLHeavy";src:url(fontes/beaufortforlol-heavy.otf);}
+@font-face{font-family:"LoLHeavyIT";src:url(fontes/beaufortforlol-heavyitalic.otf);
+}
+/***Botão Up***/
+#btn_UP{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 2vh;
+    right: 1.5vw;
+    width: 5vw;
+    max-width: 70px;
+    height: 12vh;
+    max-height: 70px;
+    background-color: #9e9e9e;
+    box-shadow: 0 10px 15px #272727;
+    border-radius: 10px;
+    text-decoration: none;
+    z-index:998;
+}
+#btn_UP::after {
+    content: "↑";
+    font-size: 2.5em;
+    font-weight: 900;
+    color: black;
+    transition: .3s;
+}
+#btn_UP:hover::after{
+    margin-top:-12px;
+}
+/***Botão Up***/
+
+/*Menu*/
+.menu{
+    position: fixed;
+    background-color:transparent;
+    border-bottom: 2px solid #9a9a9a;
+    width: 100%;
+    height: 130px;
+    z-index: 99;
+    transition: .6s;
+}
+.menu.active{
+    background:#1a1d24;
+    box-shadow: 0 0 15px #e0e0e0;
+    height:110px;
+  }
+.logo{
+    display: flex;
+    position: relative;
+    float: left;
+    width: 15vw;
+    height: 14vh;
+    max-width: 200px;
+    max-height: 80px;
+    margin-top: 20px;
+    margin-left: 35px;
+    transition: .6s;
+}
+.logo.active{
+    margin-top: 10px;
+}
+#LogoTM{
+    width: 15vw;
+    height: 14vh;
+    max-width: 200px;
+    max-height: 80px;
+}
+nav{
+    float: right;
+}
+nav ul{
+    margin-right: 35px;
+    margin-top: 40px;
+    transition: .6s;
+}
+nav ul.active{
+    margin-top: 30px;
+}
+nav li{
+	display:inline;
+    padding: 10px;
+}
+.MenuBT{
+    color: white;
+    font-size: 2em;
+    text-decoration: none;
+    font-family:"LoLBoldIT";
+    padding: 15px;
+    transition: .6s;
+}
+.MenuBT.active{
+    font-size: 1.8em;
+}
+/*Menu*/
+
+/*Banner*/
+#banner{
+    width: 100%;
+    height: 58vw;
+    background: linear-gradient(180deg, #5ec6f2 40%, #232a45 100%);
+}
+#espaço{
+    height: 130px;
+}
+#bannerT{
+    background-image: url(imgs/banner.png);
+    width: 100%;
+    height: 100vh;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#BannerBack{
+    display: flex;
+    position: relative;
+    float: left;
+    margin-left: 6vw;
+    margin-top: -92vh;
+}
+#BannerP{  
+    width: 41vw;
+}
+#banner h2{
+    display: flex;
+    position: relative;
+    margin-top: 15vw;
+    margin-right: 55px;
+    text-transform: uppercase;
+    color: white;
+    font-family: "LoLHeavyIT";
+    font-size: 9em;
+    float: right;
+}
+#banner h3{
+    margin-top: 26vw;
+    margin-right: -360px;
+    text-transform: uppercase;
+    color: white;
+    font-family: "LoLBoldIT";
+    font-size: 3em;
+    float: right;
+}
+/*Banner*/
