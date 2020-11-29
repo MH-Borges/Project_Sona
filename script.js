@@ -16,7 +16,7 @@ menuItems.forEach(item => {
 
 function scrollToIdOnClick(event){
     event.preventDefault();
-    const to = getScrollTopByHref(event.currentTarget)- 100;
+    const to = getScrollTopByHref(event.currentTarget)- 160;
     scrollToPosition(to);
 }
 

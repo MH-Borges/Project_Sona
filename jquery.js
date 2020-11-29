@@ -2,7 +2,7 @@
 $(window).scroll(function(event){
 
     const efeito = window.pageYOffset;
-    const posicao = 100;
+    const posicao = 60;
     if (efeito > posicao){
         $(".menu").addClass('active');
         $(".logo").addClass('active');

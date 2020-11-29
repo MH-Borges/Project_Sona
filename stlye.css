@@ -105,7 +105,7 @@ nav li{
     text-decoration: none;
     font-family:"LoLBoldIT";
     padding: 15px;
-    transition: .6s;
+    transition: .4s;
 }
 .MenuBT.active{
     font-size: 1.8em;
@@ -118,9 +118,6 @@ nav li{
     height: 58vw;
     background: linear-gradient(180deg, #5ec6f2 40%, #232a45 100%);
 }
-#espaço{
-    height: 130px;
-}
 #bannerT{
     background-image: url(imgs/banner.png);
     width: 100%;
@@ -128,13 +125,16 @@ nav li{
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
+    float: left;
+    position: absolute;
+    margin-top: 130px;
 }
 #BannerBack{
     display: flex;
     position: relative;
     float: left;
     margin-left: 6vw;
-    margin-top: -92vh;
+    margin-top: 13vw;
 }
 #BannerP{  
     width: 41vw;
@@ -142,7 +142,7 @@ nav li{
 #banner h2{
     display: flex;
     position: relative;
-    margin-top: 15vw;
+    margin-top: 20vw;
     margin-right: 55px;
     text-transform: uppercase;
     color: white;
@@ -151,12 +151,16 @@ nav li{
     float: right;
 }
 #banner h3{
-    margin-top: 26vw;
-    margin-right: -360px;
+    margin-top: 31vw;
+    margin-right: -370px;
     text-transform: uppercase;
     color: white;
     font-family: "LoLBoldIT";
     font-size: 3em;
-    float: right;
+    float:right;
 }
 /*Banner*/
+#divi{
+    display: flex;
+    justify-content: center;
+}
