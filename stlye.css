@@ -6,6 +6,11 @@ body{
     background:#232a45;
     height: 5000px;
 }
+#divi{
+    display: flex;
+    justify-content: center;
+    margin-top: -2vw;
+}
 @font-face{font-family:"BrsLight";src:url(fontes/BarnsleyGothic-Light.ttf);}
 @font-face{font-family:"BrsMedium";src:url(fontes/BarnsleyGothic-Medium.ttf);}
 @font-face{font-family:"BrsBold";src:url(fontes/BarnsleyGothic-Bold.ttf);}
@@ -173,13 +178,6 @@ nav li{
     margin-right: 20px;
 }
 /*Banner*/
-
-#divi{
-    display: flex;
-    justify-content: center;
-    margin-top: -2vw;
-}
-
 /* BIO */
 #Bio{
     display: flex;
@@ -244,6 +242,24 @@ nav li{
     border-radius: 25px;
     background-color: #1a1e27;
 }
+#frases h2{
+    margin-top: 20px;
+    text-align: center;
+    font-family: "LoLBoldIT";
+    font-size: 3.8em;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(#a58548, #745428);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+#frases p{
+    margin-top: 1.5vw;
+    color: white;
+    font-family: "BrsMedium";
+    font-size: 1.7em;
+    padding: 20px;
+    text-align: center;
+}
 #hist{
     background-color: rgb(180, 164, 22);
     width: 34vw;
@@ -254,8 +270,41 @@ nav li{
     border-radius: 25px;
     background-color: #1a1e27;
 }
+#hist h2{
+    margin-top: 10px;
+    text-align: center;
+    font-family:"LoLBoldIT";
+    font-size: 4.2em;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(#eef0e6,#9a9a9a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#hist blockquote{
+    color: white;
+    padding: 25px;
+    font-family: "LoLlight";
+    font-size: 1em;
+    margin-top: 1vw;
+}
+#hist a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.6em;
+    font-family: "LoLMedium";
+    transition: .2s;
+}
+#hist a:hover{
+    color: black;
+}
+#BtHist{
+    margin-top: 1.2vw;
+    width: 10vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
 #func{
-    background-color: violet;
     width: 29vw;
     height: 900px;
     margin-left: 1vw;
@@ -264,4 +313,95 @@ nav li{
     border-radius: 25px;
     background-color: #1a1e27;
 }
+#func h2{
+    margin-top: -10px;
+    text-align: center;
+    font-family: "LoLRegular";
+    font-size: 4em;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(#a58548, #745428);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+#func h4{
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    font-family: "LoLlight";
+    font-size: 2em;
+}
+#imgFun{
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+#func h3{
+    margin-top: 30px;
+    text-align: center;
+    font-family:"LoLRegular";
+    font-size: 5em;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(#eef0e6,#9a9a9a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 /* BIO */
+/* Skills */
+#Skill{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    height:800px;
+    background-image: url(imgs/Back-Habil.png);
+    background-position:center;
+    background-repeat: no-repeat;
+}
+#contS{
+    display: flex;
+    position: relative;
+    width: 95vw;
+}
+#Stitle{
+    display:inline-block;
+    position: absolute;
+    font-family: "LoLBoldIT";
+    font-size: 3.5em;
+    color: white;
+    margin-top: 20px;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+#icon{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 23vw;
+    height: 680px;
+    margin-top: 120px;
+}
+#backIc{
+    width: 120px;
+}
+.iconT{
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+}
+#descr{
+    display: flex;
+    position: relative;
+    width: 30vw;
+    height: 680px;
+    margin-top: 120px;
+}
+#vid{
+    display: flex;
+    position: relative;
+    width: 42vw;
+    height: 680px;
+    margin-top: 120px;
+}
+/* Skills */
