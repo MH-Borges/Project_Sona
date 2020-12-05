@@ -381,27 +381,96 @@ nav li{
     width: 23vw;
     height: 680px;
     margin-top: 120px;
+    background: yellow;
 }
 #backIc{
-    width: 120px;
+    width: 100px;
+    background: tomato;
+    display: flex;
+    position: relative;
+}
+#backIc ul{
+    list-style: none;
+}
+#backIc label{
+    display: flex;
+    position: relative;
+    cursor: pointer;
 }
 .iconT{
     width: 80px;
     height: 80px;
     padding: 10px;
 }
-#descr{
-    display: flex;
-    position: relative;
-    width: 30vw;
-    height: 680px;
-    margin-top: 120px;
+.rd_tabs{
+	display:none;
 }
-#vid{
+.rd_tabs:checked ~ label{
+	display:block;
+}
+#content{
+    background:rgb(241, 140, 24);
     display: flex;
-    position: relative;
-    width: 42vw;
-    height: 680px;
-    margin-top: 120px;
+	position: absolute;
+	height: 600px;
+    width: 80vw;
+    margin-left: 100px;
+    margin-top: -150px;
+    display: none;
+}
+#content1{
+    background:rgb(5, 114, 238);
+    display: flex;
+	position: absolute;
+	height: 600px;
+    width: 80vw;
+    margin-left: 100px;
+    margin-top: -250px;
+    display: none;
+}
+#content2{
+    background:rgb(24, 245, 17);
+    display: flex;
+	position: absolute;
+	height: 600px;
+    width: 80vw;
+    margin-left: 100px;
+    margin-top: -350px;
+    display: none;
+}
+#content3{
+    background:rgb(245, 17, 245);
+    display: flex;
+	position: absolute;
+	height: 600px;
+    width: 80vw;
+    margin-left: 100px;
+    margin-top: -450px;
+    display: none;
+}
+#content4{
+    background:rgb(245, 222, 17);
+    display: flex;
+	position: absolute;
+	height: 600px;
+    width: 80vw;
+    margin-left: 100px;
+    margin-top: -550px;
+    display: none;
+}
+.rd_tabs:checked ~ #content{
+	display:block;
+}
+.rd_tabs:checked ~ #content1{
+	display:block;
+}
+.rd_tabs:checked ~ #content2{
+	display:block;
+}
+.rd_tabs:checked ~ #content3{
+	display:block;
+}
+.rd_tabs:checked ~ #content4{
+	display:block;
 }
 /* Skills */
