@@ -381,11 +381,9 @@ nav li{
     width: 23vw;
     height: 680px;
     margin-top: 120px;
-    background: yellow;
 }
 #backIc{
     width: 100px;
-    background: tomato;
     display: flex;
     position: relative;
 }
@@ -403,10 +401,10 @@ nav li{
     padding: 10px;
 }
 .rd_tabs{
-	display:none;
+    display:none;   
 }
 .rd_tabs:checked ~ label{
-	display:block;
+    display:block;
 }
 #content{
     background:rgb(241, 140, 24);
@@ -473,4 +471,5 @@ nav li{
 .rd_tabs:checked ~ #content4{
 	display:block;
 }
+
 /* Skills */
